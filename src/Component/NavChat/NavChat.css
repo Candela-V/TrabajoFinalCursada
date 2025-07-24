@@ -1,0 +1,41 @@
+.search-message{
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    overflow: hidden;
+    transition:
+    border-color 0.4s ease,
+    box-shadow 0.4s ease;
+}
+
+.search-message:hover{
+    border: 1px solid rgba(0, 0, 0, 0.555);
+}
+
+.search-message:focus-within{
+    border: 2px solid rgb(109, 26, 103); 
+    box-shadow: 0 0 10px 1px rgb(212, 76, 212);
+    caret-color:rgb(95, 33, 95);
+}
+
+.search-message_text{
+    width: 100%;
+    height: 40px;
+    background-color: inherit;
+    border: none;
+    color: rgba(0, 0, 0, 0.555);
+    font-size: 16px;
+    outline: none;
+}
+
+.container-icon{
+    margin: 12px 10px 10px 15px ;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-message_icon{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.555);
+}

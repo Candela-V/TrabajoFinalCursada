@@ -1,0 +1,70 @@
+.container-conversation{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(https://i.pinimg.com/736x/13/55/76/135576aad11afe353b6c63a55a950ef6.jpg);
+}
+
+.HeaderChat{
+    background-color: rgb(18, 19, 19);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 12px;
+}
+
+.HeaderPhoto{
+    max-width: 50px;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.ContactDetail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.Back{
+    padding: 10px;
+    color: white;
+}
+
+.Calls{
+    display: flex;
+    align-items: center;
+}
+
+.Calls button{
+    border: 1px solid;
+    border-color: black; 
+    padding: 8px;
+    border-radius: 8%;
+}
+
+.chat{
+    display: flex;
+}
+
+.IoCall{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.IoCall_Button{
+    background-color: transparent;
+}
+
+.FaVideo{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.FaVideo_Button{
+    background-color: transparent;
+}

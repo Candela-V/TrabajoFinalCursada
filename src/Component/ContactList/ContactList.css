@@ -1,0 +1,62 @@
+.Header_ContactList{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+}
+
+.Header_ContactList h1{
+    color:  rgb(130, 36, 130);
+    text-shadow: 2px 2px 5px rgb(80, 12, 80);
+    overflow: hidden;
+}
+
+.Button_Cam_More{
+    display: flex;
+    flex-direction: row;
+}
+
+.IoIosCamera{
+    display: flex;
+    align-items: center;
+    color: rgb(0, 0, 0) ;
+    background-color:  rgb(130, 36, 130);
+    border-color:  rgb(130, 36, 130);
+    border-radius: 50%;
+    padding: 1px;
+}
+
+.CiCircleMore{
+    display: flex;
+    align-items: center;
+    color: rgb(0, 0, 0) ;
+    background-color:  rgb(130, 36, 130);
+    border-color: rgb(130, 36, 130);
+    border-radius: 50%;
+    padding: 1px;
+}
+
+.footer_ContactList{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_ContactList button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 5px;
+    background-color:  rgba(23, 21, 21, 0.965);
+    border: none;
+    color: rgb(130, 36, 130);
+    text-shadow: 2px 5px 5px rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+.Container_ContactList{
+    background-color: rgb(18, 16, 16);
+
+}
