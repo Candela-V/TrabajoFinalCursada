@@ -1,10 +1,11 @@
 .Back_page{
     background-color:black;
     overflow: hidden;
+    overflow-y: auto;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
+    height: 100vh
 }
 
 .Header_contact{
@@ -13,17 +14,19 @@
     width: 100%;
     padding: 10px;
     color: white;
+    margin: 10px 5px 10px 5px;
 }
 
 .Header_contact button{
-color: rgb(255, 255, 255);
-background-color: rgb(124, 33, 149);
-padding: 5px;
-border-radius: 20%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(124, 33, 149);
+    padding: 5px;
+    border-radius: 20%;
+    border: none;
 }
 
 .Contact_photo_icon{
-    width: 80px;
+    width: 150px;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -34,16 +37,18 @@ border-radius: 20%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 10px;
+    gap: 25px;
     color: white;
+    font-size: 25px;
+    margin: 10px;
 }
 
 .Multimedia_Button{
     display: flex;
-    justify-content:center;
-    gap: 30px;
+    justify-content:space-between;
+    gap: 40px;
     flex-direction: row;
-    margin-top: 12px;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
@@ -51,13 +56,14 @@ border-radius: 20%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 120px;
     gap: 5px;
     border-color: rgb(73, 20, 73);
     border-radius: 10%;
     padding: 12px;
-    background-color: transparent;
+    background-color: rgba(69, 68, 68, 0.427);
     color: white;
-    font-weight: 700;
+    font-size: 25px;
 }
 
 .Archives_Docs {
@@ -68,7 +74,7 @@ border-radius: 20%;
     margin: 15px;
     padding: 15px; 
     color: white;
-    background-color: rgb(23, 21, 21);
+    background-color: rgb(69, 68, 68);
     border-radius: 20px;
     max-width: 420px;
 }
@@ -81,7 +87,7 @@ border-radius: 20%;
     margin: 15px;
     padding: 15px; 
     color: white;
-    background-color: rgb(23, 21, 21);
+    background-color: rgb(69, 68, 68);
     border-radius: 20px;
     max-width: 420px;
 }
@@ -94,7 +100,7 @@ border-radius: 20%;
     margin: 15px;
     padding: 15px; 
     color: white;
-    background-color: rgb(23, 21, 21);
+    background-color:rgb(69, 68, 68);
     border-radius: 20px;
     max-width: 420px;
 }
@@ -130,5 +136,133 @@ border-radius: 20%;
     padding: 10px 15px;
     gap: 10px;
     width: 100%;
-    max-width: 500px;
+    max-width: 750px;
+}
+
+@media screen and (max-width: 760px) {
+    .Back_page {
+        padding: 0 20px;
+    }
+
+    .Contact_photo_icon{
+    width: 110px;
+}
+
+    .Archives_Docs,
+    .Container_Teme,
+    .Container_Private {
+        max-width: 100%;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .Multimedia_Button button {
+        font-size: 18px;
+    }
+
+    .Section-Archives,
+    .Section-Teme,
+    .Private-Section {
+        font-size: 15px;
+        gap: 15px;
+    }
+
+    .span_icono {
+        font-size: 20px;
+        width: 28px;
+    }
+
+    .span_text {
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .Back_page {
+        padding: 0 10px;
+    }
+
+    .Header_contact h1 {
+        font-size: 18px;
+    }
+
+    .Header_contact button {
+        font-size: 12px;
+        padding: 4px 8px;
+    }
+
+    .Name_Contact h1 {
+        font-size: 20px;
+    }
+
+    .Name_Contact span {
+        font-size: 14px;
+    }
+
+    .Multimedia_Button {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .Multimedia_Button button {
+        width: 100%;
+        font-size: 18px;
+        padding: 10px;
+        border-radius: 12px;
+    }
+
+    .Archives_Docs,
+    .Container_Teme,
+    .Container_Private {
+        padding: 10px;
+        margin: 10px 0;
+        max-width: 100%;
+    }
+
+    .Section-Archives,
+    .Section-Teme,
+    .Private-Section {
+        font-size: 14px;
+        gap: 10px;
+    }
+
+    .span_icono {
+        font-size: 18px;
+        width: 24px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .Back_page {
+        padding: 0 8px;
+    }
+
+    .Header_contact h1 {
+        font-size: 16px;
+    }
+
+    .Multimedia_Button button {
+        font-size: 13px;
+        padding: 8px;
+    }
+
+    .Section-Archives,
+    .Section-Teme,
+    .Private-Section {
+        font-size: 13px;
+    }
+
+    .span_icono {
+        font-size: 16px;
+    }
+
+    .Name_Contact h1 {
+        font-size: 18px;
+    }
+
+    .Name_Contact span {
+        font-size: 13px;
+    }
 }

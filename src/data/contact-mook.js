@@ -28,7 +28,7 @@ const mook_data = {
                 {
                     emisor: 'USUARIO',
                     hora: '21:00',
-                    id: 101,
+                    id: 103,
                     texto: 'No vuelvas a hacerlo',
                     status: 'visto'
                 },
@@ -48,14 +48,14 @@ const mook_data = {
                 {
                     emisor: 'YO',
                     hora: '20:01',
-                    id: 2,
+                    id: 11,
                     texto: 'Se enteró, Joseph. Tu esposa… se enteró de que la estabas engañando',
                     status: 'visto'
                 },
                 {
                     emisor: 'USUARIO',
                     hora: '20:01',
-                    id: 2,
+                    id: 10,
                     texto: '¡¡OH MY GOD!! ¡¡¿C-cómo?!! ¿Quién se lo dijo? ¡Maldita sea! ¡Sabía que esto pasaría!',
                     status: 'visto'
                 }
@@ -75,21 +75,21 @@ const mook_data = {
                 {
                     emisor: 'YO',
                     hora: '17:00',
-                    id: 3,
+                    id: 12,
                     texto: ' ¿no sentís culpa por lastimar a otros?',
                     status: 'visto'
                 },
                 {
                     emisor: 'USUARIO',
                     hora: '17:00',
-                    id: 3,
+                    id: 13,
                     texto: 'Culpa…? ¡Fue yo, DIO, quien eligió este camino!',
                     status: 'visto'
                 },
                 {
                     emisor: 'YO',
                     hora: '17:00',
-                    id: 3,
+                    id: 14,
                     texto: 'Ya te vas a arrepentir',
                     status: 'no-visto'
                 },
@@ -109,21 +109,21 @@ const mook_data = {
                 {
                     emisor: 'USUARIO',
                     hora: '17:05',
-                    id: 12,
+                    id: 16,
                     texto: '¿Me podés decir dónde está ese grandulón de Jotaro?',
                     status: 'visto'
                 },
                 {
                     emisor: 'YO',
                     hora: '17:07',
-                    id: 11,
+                    id: 17,
                     texto: '¿Otra vez lo perdiste?',
                     status: 'visto'
                 },
                 {
                     emisor: 'USUARIO',
                     hora: '17:05',
-                    id: 12,
+                    id: 18,
                     texto: 'Estaba aqui hace un minuto, es rapido para desaparecer',
                     status: 'visto'
                 },
@@ -143,21 +143,21 @@ const mook_data = {
                 {
                     emisor: 'USUARIO',
                     hora: '15:40',
-                    id: 1,
+                    id: 19,
                     texto: 'JOJO, ¡ESTE ES EL ÚLTIMO DE MIS HAMOOON!',
                     status: 'visto'
                 },
                 {
                     emisor: 'YO',
                     hora: '15:40',
-                    id: 1,
+                    id: 20,
                     texto: 'Caesar?',
                     status: 'visto'
                 },
                 {
                     emisor: 'YO',
                     hora: '15:40',
-                    id: 1,
+                    id: 21,
                     texto: 'CAESAAARRR',
                     status: 'visto'
                 }

@@ -13,7 +13,7 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    background-color: rgb(13, 13, 13);
+    background-color: rgb(40, 39, 39);
     padding: 10px;
     border-radius: 25px;
 }
@@ -22,6 +22,8 @@
     width: 100%;
     background-color: transparent;
     border: none;
+    resize: none;
+    color: white;
 }
 
 .send-message{

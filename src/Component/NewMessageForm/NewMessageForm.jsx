@@ -19,7 +19,6 @@ export default function NewMessageForm() {
                     <button className='emojis'>😊</button>
                 </label>
                 <textarea className='textarea' id='text' name='text' minLength={5} required >
-
                 </textarea>
             </div>
             <button className='send-message' type='submit'><IoSend className='IoSend'/></button>

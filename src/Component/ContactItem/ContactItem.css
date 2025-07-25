@@ -38,9 +38,6 @@
 .Last-message {
     font-size: 14px;
     color: #ffffff;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
 }
 
 .connected_unread-message{
@@ -51,3 +48,4 @@
     border-radius: 12px;
     margin-left: 8px;
 }
+

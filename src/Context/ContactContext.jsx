@@ -18,8 +18,7 @@ const ContactContextProvider = ({children}) => {
 
     setTimeout(
         () => {
-            //a los 2 segundos cargamos la lista de contactos
-            const contact_list = getContactList() //Obtengo la lista de contactos
+            const contact_list = getContactList() 
             setContacts(contact_list)
             setIsLoadingContacts(false)
         }, 
