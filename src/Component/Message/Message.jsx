@@ -20,7 +20,6 @@ export default function Message({ emisor, hora, id, texto, status}) {
             <div  className='Message_baseline'>
                 <span>{hora}</span>
                 {emisor === 'YO' && <span className="Visto">✔✔</span>}
-                {/* Nos interesa pasar una funcion anonima cuando queremos pasarle un parametro a x funcion */}
                 <button className='FaTrash_Button' onClick={() => {handleEliminarMensaje(id)}} ><FaTrash className='FaTrash'/></button>
             </div>
         </div>

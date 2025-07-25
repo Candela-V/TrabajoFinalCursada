@@ -3,6 +3,7 @@
     flex-direction: column;
     height: 100vh;
     background-image: url(https://i.pinimg.com/736x/13/55/76/135576aad11afe353b6c63a55a950ef6.jpg);
+    width: 100%;
 }
 
 .HeaderChat{
